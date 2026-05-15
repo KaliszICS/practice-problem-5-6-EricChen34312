@@ -39,8 +39,8 @@ toString() - Returns a string representation: "Battery: [capacityMAh] mAh, Charg
 
 Create a Display class with:</br>
 
-Private instance variables: double sizeInches and String resolution</br>
-Constructor: public Display(double sizeInches, String resolution)</br>
+Private instance variables: double sizeInches, String resolution, boolean isOn</br>
+Constructor: public Display(double sizeInches, String resolution) - Default isOn to Off</br>
 Methods:</br>
 
 turnOn() - return the string "Display turned on. [sizeInches]-inch, [resolution]"</br>
